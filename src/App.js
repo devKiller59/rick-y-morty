@@ -11,7 +11,7 @@ function App() {
       </header>
       <footer className='footer'>
         <p><b>Powered by:</b> The Rick and Morty API</p>
-        <p><b>Designed by:</b> Jhoseb29 & TheKiller1959</p>
+        <p><b>Designed by:</b> Jhoseb29 & devKiller59</p>
         <p><b>2022</b></p>
       </footer>
    </div>
