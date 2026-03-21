@@ -22,6 +22,7 @@ body {
 .header {
   background-image: url(./Asssets/gif.gif);
   background-position: center;
+  background-attachment: fixed;
   padding: 30px;
 }
 
@@ -103,12 +104,13 @@ body {
   color: #fff;
   margin: 10px;
   background-color: #525a68;
+  border-radius: 20px;
 }
 
 .resident-container h3 {
   text-align: center;
-  padding: 20px;
-  font-size: 40px;
+  padding: 30px;
+  font-size: 50px;
 }
 
 .each-card {
@@ -116,7 +118,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
   grid-area: span;
-  padding: 30px;
+  padding: 40px;
 }
 
 .each-resident {
@@ -124,16 +126,28 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  border-radius: 12px;
+  border-radius: 20px;
   background-color: rgb(80, 80, 80);
+  padding-bottom: 30px;
 }
 
 .each-resident img {
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 3px solid #000;
 }
 
-.each-resident p {
-  padding: 20px;
+.each-resident p:nth-child(2) {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.each-resident p:nth-child(3), .each-resident p:nth-child(4), .each-resident p:nth-child(5) {
+  border: 2px solid #000;
+  background-color: rgb(93, 166, 207);
+  margin: 10px 20px;
+  border-radius: 50px;
+  color: #181818;
+  padding: 10px;
 }
 
 .footer {

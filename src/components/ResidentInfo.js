@@ -46,7 +46,7 @@ const ResidentItem = ({ url }) => {
             <b>{resident.name}</b>
           </p>
           <p>
-            {resident.species}
+            <b>Species:</b> {resident.species}
           </p>
           <p>
             <b>Origin:</b> {resident.origin}
